@@ -19,4 +19,4 @@ cd MilliShield_Core
 
 # Tek komutla tüm C/C++ modüllerini derleyin ve servisleri başlatın
 chmod +x deploy.sh
-./deploy.sh
+./deploy.sh# MurtzengShield-Core
