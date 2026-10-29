@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.o
+*.so
+*.apk
+logs/
+*.log
