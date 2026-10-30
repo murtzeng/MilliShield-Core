@@ -1,4 +1,0 @@
-MilliShield AOSP Core Benchmark Summary
-Latency: 0.00008 ms
-NPU Accuracy: 99.4%
-Status: Verified
