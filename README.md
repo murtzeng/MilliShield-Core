@@ -1,9 +1,8 @@
 # **🛡️ MilliShield Core & AOSP SurfaceFlinger AI Zırhı**
 
-## **📄 TÜBİTAK 2209 Araştırma Projeleri Detaylı Raporu (Teknik Rapor):** 
-- TUBITAK_MilliShield_AOSP_Report.md
+* 📄 [TÜBİTAK 2209 Araştırma Projeleri Detaylı Raporu (Teknik Rapor)](docs/TUBITAK_MilliShield_AOSP_Report.md)
 
-### **MilliShield,** modern uçtan uca şifreli ağ trafiklerinde (TLS 1.3, DoH, ECH) geleneksel paket/DNS filtrelerinin yetersiz kaldığı dikey video ve dinamik zararlı içerikleri, **Android Open Source Project (AOSP)** işletim sisteminin derleme katmanında (`SurfaceFlinger`) yakalayıp infaz eden yerli ve milli güvenlik zırhıdır.
+**MilliShield,** modern uçtan uca şifreli ağ trafiklerinde (TLS 1.3, DoH, ECH) geleneksel paket/DNS filtrelerinin yetersiz kaldığı dikey video ve dinamik zararlı içerikleri, **Android Open Source Project (AOSP)** işletim sisteminin derleme katmanında (`SurfaceFlinger`) yakalayıp infaz eden yerli ve milli güvenlik zırhıdır.
 
 ## **🚀 Proje Mimari Özeti**
 ```
