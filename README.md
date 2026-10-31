@@ -41,14 +41,17 @@
 | **Memory Footprint (RAM)** | `< 8.4 MB` | Cihaz başı ultra düşük bellek kullanımı. |
 | **Network Bypass Status** | `IMPOSSIBLE` | Müdahale ekran render katmanında olduğu için ağ şifrelemesi etkisizdir. |
 
-## **📸 Canlı Test ve Sistem Doğrulama Kanıtı**
-- **Kurulum ve Çalıştırma**
+## 📸 Canlı Test ve Sistem Doğrulama Kanıtı
+
+![MilliShield AOSP Benchmark Proof](aosp_native/aosp_benchmark_proof.png)
+
+## 🚀 Kurulum ve Çalıştırma
 
 Projeyi yerel ortamda veya AOSP derleme simülatöründe çalıştırmak için terminale sırasıyla şu talimatları girin:
 
 ```bash
 # 1. Depoyu klonlayın
-git clone https://github.com/murtzeng/MilliShield-Core.git
+git clone [https://github.com/murtzeng/MilliShield-Core.git](https://github.com/murtzeng/MilliShield-Core.git)
 
 # 2. Proje dizinine girin
 cd MilliShield-Core
