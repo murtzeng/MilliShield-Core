@@ -34,6 +34,7 @@ Dynamic Alpha Blending Overlay: Şüpheli içerik tespit edildiğinde ekrana yum
 📊 TÜBİTAK Performans & Benchmark Metrikleri
 
 | Performans Parametresi | Ölçülen Değer | Teknik Değerlendirme || SurfaceFlinger Hook Latency | 0.00008 ms (80 ns) | Ekran tazeleme hızını (120 Hz) etkilemeyen alt-milisaniye gecikme. || Frame Processing Capacity | ~30,000 FPS | Edge NPU donanım ivmelendirmesi ile maksimum işleme sınırı. || NPU INT8 Classification Acc | %99.4 | INT8 kuantize model ile yüksek doğrulukta dikey video tespiti. || Memory Footprint (RAM) | < 8.4 MB | Cihaz başı ultra düşük bellek kullanımı. || Network Bypass Status | IMPOSSIBLE | Müdahale ekran render katmanında olduğu için ağ şifrelemesi etkisizdir. |
+-|---|
 
 
 📸 Canlı Test ve Sistem Doğrulama Kanıtı
