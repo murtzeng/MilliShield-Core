@@ -1,10 +1,9 @@
-## **🛡️ MilliShield Core & AOSP SurfaceFlinger AI Zırhı**
-
+# **🛡️ MilliShield Core & AOSP SurfaceFlinger AI Zırhı**
 
 ## **📄 TÜBİTAK 2209 Araştırma Projeleri Detaylı Raporu (Teknik Rapor):** 
 - TUBITAK_MilliShield_AOSP_Report.md
 
-**MilliShield,** modern uçtan uca şifreli ağ trafiklerinde (TLS 1.3, DoH, ECH) geleneksel paket/DNS filtrelerinin yetersiz kaldığı dikey video ve dinamik zararlı içerikleri, **Android Open Source Project (AOSP)** işletim sisteminin derleme katmanında (SurfaceFlinger) yakalayıp infaz eden yerli ve milli güvenlik zırhıdır.
+### **MilliShield,** modern uçtan uca şifreli ağ trafiklerinde (TLS 1.3, DoH, ECH) geleneksel paket/DNS filtrelerinin yetersiz kaldığı dikey video ve dinamik zararlı içerikleri, **Android Open Source Project (AOSP)** işletim sisteminin derleme katmanında (`SurfaceFlinger`) yakalayıp infaz eden yerli ve milli güvenlik zırhıdır.
 
 ## **🚀 Proje Mimari Özeti**
 ```
@@ -25,7 +24,7 @@
 - **C++ Native SurfaceFlinger Hook:**
   - Ekran derleme sürecini geciktirmeden donanım seviyesinde kare analizi (0.00008 ms).
 - **Zero-Copy DMA Engine:**
-  - HardwareBuffer seviyesinde doğrudan bellek kopyalama yapmadan NPU'ya veri aktarımı (Sıfır CPU/RAM yükü).
+  - `HardwareBuffer` seviyesinde doğrudan bellek kopyalama yapmadan NPU'ya veri aktarımı (Sıfır CPU/RAM yükü).
 - **INT8 Quantized Edge AI Model:**
   - 9:16 formatındaki dikey videoları ve bağımlılık yapıcı görsel akışları %99.4 doğrulukla sınıflandırma.
 - **Watchdog Guard Daemon:**
@@ -44,14 +43,21 @@
 | **Network Bypass Status** | `IMPOSSIBLE` | Müdahale ekran render katmanında olduğu için ağ şifrelemesi etkisizdir. |
 
 ## **📸 Canlı Test ve Sistem Doğrulama Kanıtı**
-- **🛠️ Kurulum ve Test (Simülasyon)**
-  - Sistemi yerel ortamda veya AOSP derleme simülatöründe çalıştırmak için:
-    - Projeyi klonlayın
-      - git clone https://github.com/murtzeng/MilliShield-Core.git
-      - cd MilliShield-Core
-    - AOSP ve NPU Simülasyonunu Çalıştırın
-      - chmod +x aosp_native/run_aosp_simulation.sh
-      - ./aosp_native/run_aosp_simulation.sh
+- **Kurulum ve Çalıştırma**
+
+Projeyi yerel ortamda veya AOSP derleme simülatöründe çalıştırmak için terminale sırasıyla şu talimatları girin:
+
+```bash
+# 1. Depoyu klonlayın
+git clone https://github.com/murtzeng/MilliShield-Core.git
+
+# 2. Proje dizinine girin
+cd MilliShield-Core
+
+# 3. Çalıştırma izni verin ve simülasyonu başlatın
+chmod +x aosp_native/run_aosp_simulation.sh
+./aosp_native/run_aosp_simulation.sh
+```
 
 ## **Proje Klasör Yapısı**
 ```
