@@ -1,11 +1,13 @@
 ## **🛡️ MilliShield Core & AOSP SurfaceFlinger AI Zırhı**
 
-## **📄 TÜBİTAK 2209 Araştırma Projeleri Detaylı Raporu (Teknik Rapor):** TUBITAK_MilliShield_AOSP_Report.md
+
+## **📄 TÜBİTAK 2209 Araştırma Projeleri Detaylı Raporu (Teknik Rapor):** 
+- TUBITAK_MilliShield_AOSP_Report.md
 
 **MilliShield,** modern uçtan uca şifreli ağ trafiklerinde (TLS 1.3, DoH, ECH) geleneksel paket/DNS filtrelerinin yetersiz kaldığı dikey video ve dinamik zararlı içerikleri, **Android Open Source Project (AOSP)** işletim sisteminin derleme katmanında (SurfaceFlinger) yakalayıp infaz eden yerli ve milli güvenlik zırhıdır.
 
-```
 ## **🚀 Proje Mimari Özeti**
+```
 [ Gelen Şifreli Trafik (TLS 1.3 / DoH) ]
                    │
                    ▼ (Ağ Katmanı Baypası)
@@ -31,7 +33,6 @@
 - **Dynamic Alpha Blending Overlay:**
   - Şüpheli içerik tespit edildiğinde ekrana yumuşak karartma katmanı uygulama.
 
-
 ### 📊 TÜBİTAK Performans & Benchmark Metrikleri
 
 | Performans Parametresi | Ölçülen Değer | Teknik Değerlendirme |
@@ -41,7 +42,6 @@
 | **NPU INT8 Classification Acc** | `%99.4` | INT8 kuantize model ile yüksek doğrulukta dikey video tespiti. |
 | **Memory Footprint (RAM)** | `< 8.4 MB` | Cihaz başı ultra düşük bellek kullanımı. |
 | **Network Bypass Status** | `IMPOSSIBLE` | Müdahale ekran render katmanında olduğu için ağ şifrelemesi etkisizdir. |
-
 
 ## **📸 Canlı Test ve Sistem Doğrulama Kanıtı**
 - **🛠️ Kurulum ve Test (Simülasyon)**
@@ -53,8 +53,9 @@
       - chmod +x aosp_native/run_aosp_simulation.sh
       - ./aosp_native/run_aosp_simulation.sh
 
+## **Proje Klasör Yapısı**
 ```
-Proje Klasör YapısıMilliShield-Core/
+MilliShield-Core/
 ├── aosp_native/               # AOSP C++ Render & NPU Katmanı
 │   ├── native_hook/           # SurfaceFlinger C++ Interceptor Kodları
 │   ├── run_aosp_simulation.sh # Sistem Doğrulama ve Benchmark Scripti
