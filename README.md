@@ -117,3 +117,5 @@ Projenin tüm akademik ve teknik raporlarına aşağıdaki bağlantılardan eri�
 *[📄 TÜBİTAK 2209-A Başvuru ve Teknik Raporu](docs/TUBITAK_MilliShield_AOSP_Report.md)
 
 *[📄 TÜBİTAK AR-GE Proje Manifestosu](docs/TUBITAK_PROJECT_MANIFEST.md)
+
+*[📄 Otomatik Rapor Üretici Betik (Script)](docs/generate_report.py)
