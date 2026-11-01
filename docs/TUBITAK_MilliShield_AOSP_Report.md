@@ -4,7 +4,7 @@
 * **Proje Adı:** MilliShield: AOSP Çekirdek Düzeyli Zırhlı İçerik Engelleme Sistemi
 * **Geliştirici:** Murtaza Can BİLGİN (Gaziantep Üniversitesi - Mühendislik Fakültesi)
 * **Kurum:** Gaziantep Üniversitesi
-* **Açık Kaynak Reposu:** github.com/murtzeng/MilliShield-Core
+* **Açık Kaynak Reposu:** [github.com/murtzeng/MilliShield-Core](https://github.com/murtzeng/MilliShield-Core)
 
 ---
 
