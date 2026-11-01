@@ -8,13 +8,13 @@
 ---
 
 ## 📋 İçindekiler
-1. ![Proje Hakkında ve Gerekçe](#-proje-hakkında-ve-gerekçe)
-2. ![Mimari ve Çalışma Prensibi (Hibrit Yapı)](#-mimari-ve-çalışma-prensibi-hibrit-yapı)
-3. ![Performans ve Benchmark Metrikleri](#-performans-ve-benchmark-metrikleri)
-4. ![Görsel Kanıtlar ve Test Ekranı](#-görsel-kanıtlar-ve-test-ekranı)
-5. ![Proje Dosya Yapısı](#-proje-dosya-yapısı)
-6. ![Kurulum ve Derleme Adımları](#-kurulum-ve-derleme-adımları)
-7. ![Dokümantasyon ve Raporlar](#-dokümantasyon-ve-raporlar)
+1. [Proje Hakkında ve Gerekçe](#-proje-hakkında-ve-gerekçe)
+2. [Mimari ve Çalışma Prensibi (Hibrit Yapı)](#-mimari-ve-çalışma-prensibi-hibrit-yapı)
+3. [Performans ve Benchmark Metrikleri](#-performans-ve-benchmark-metrikleri)
+4. [Görsel Kanıtlar ve Test Ekranı](#-görsel-kanıtlar-ve-test-ekranı)
+5. [Proje Dosya Yapısı](#-proje-dosya-yapısı)
+6. [Kurulum ve Derleme Adımları](#-kurulum-ve-derleme-adımları)
+7. [Dokümantasyon ve Raporlar](#-dokümantasyon-ve-raporlar)
 
 ---
 
@@ -96,7 +96,7 @@ Projeyi yerel ortamınıza klonlamak ve derlemek için terminalde sırasıyla ş
 
 ```
 # Repoyu klonlayın
-git clone [https://github.com/murtzeng/MilliShield-Core.git](https://github.com/murtzeng/MilliShield-Core.git)
+git clone https://github.com/murtzeng/MilliShield-Core.git
 cd MilliShield-Core
 
 # Çekirdek eBPF modülünü derleyin
@@ -112,8 +112,8 @@ python3 engine/master_engine.py
 
 Projenin tüm akademik ve teknik raporlarına aşağıdaki bağlantılardan erişebilirsiniz:
 
-![📄 Teknik Mimari ve Performans Raporu](docs/MilliShield_Technical_Report.md)
+*[📄 Teknik Mimari ve Performans Raporu](docs/MilliShield_Technical_Report.md)
 
-![📄 TÜBİTAK 2209-A Başvuru ve Teknik Raporu](docs/TUBITAK_MilliShield_AOSP_Report.md)
+*[📄 TÜBİTAK 2209-A Başvuru ve Teknik Raporu](docs/TUBITAK_MilliShield_AOSP_Report.md)
 
-![📄 TÜBİTAK AR-GE Proje Manifestosu](docs/TUBITAK_PROJECT_MANIFEST.md)
+*[📄 TÜBİTAK AR-GE Proje Manifestosu](docs/TUBITAK_PROJECT_MANIFEST.md)
